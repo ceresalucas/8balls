@@ -1,0 +1,26 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "lib8balls",
+  "description": "such god bigas",
+  "version": "0.1.9",
+
+  "icons": {
+    "48" : "img/8balls.png",
+    "128" : "img/8balls.png"
+  },
+  "background": {
+    "scripts": [
+      "run.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab","*://*/*"
+  ],
+  "browser_action": {
+    "default_title": "doge go",
+    "default_icon": "img/8balls.png"
+  }
+}
